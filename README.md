@@ -27,7 +27,7 @@
             3. Tăng Trường Thái (Student1295176)
 ===================================
 
-Documentations: https://github.com/VuNguyen1607/-Symplon-_-Group5-/blob/main/Documentations
+Documentations: https://github.com/VuNguyen1607/symplon-group-5/blob/main/Documentations
 
 ====================================
 
