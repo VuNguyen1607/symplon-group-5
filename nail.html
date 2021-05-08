@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="hair.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/jCskKc9.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Original+Surfer&display=swap" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <head>
+    <title>
+         Symplon' Beauty Care Center   
+    </title>
+    
+    <div class="menu__bar">
+        <a href="index.html"><img src="https://i.imgur.com/GcN2ixq.png" alt="logo"/></a>
+        <input value="" id="search" class="fa fa-search" type="search" onChange="openPage()" placeholder="Symplon Search..."/>
+        <script>
+            function openPage(){
+                var x = document.getElementById("search").value;
+
+                if (x = "home", "trang chủ") {
+                    window.open("/index .html");
+                }
+                if (x = "product", "shopping", "shop", "mua", "dịch vụ", "sản phẩm") {
+                    window.open("/cart.html");
+                }
+                if (x = "about us", "About us", "About Us") {
+                    window.open("index.html");
+                }
+            }
+        </script>
+    
+    <ul>
+        
+         <a  href="index.html"><i class="material-icons">home</i><br>Home</a>
+        <a href="cart.html"><i class="material-icons">computer</i>Service/Product</a>
+        <a href="Aboutus.html"><i class="material-icons">people</i><br>About Us</a>
+        <a href="contact.html"><i class="material-icons">phone</i><br>Contact Us</a>
+        <a href="shopping.html"><i class="material-icons">shopping_cart</i><br>Shopping Bag</a>
+        </ul>
+       
+     </div>
+     
+    
+
+    
+</head>
+<body>
+<div class="navbar">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            
+                <div class="back">
+                <i class="material-icons">arrow_forward</i>
+            </div>
+                <span class="link-text">Categories</span>
+                
+        
+            <hr size="1">
+            
+        </li>
+        
+        <li class="nav-item">
+            <a href="hair.html" class="nav-link">
+                <i class="material-icons">content_cut</i>
+                <span class="link-text">Hair</span>
+            </a>
+        </li>
+    
+    <li class="nav-item">
+        <a href="wedding.html" class="nav-link">
+            <i class="material-icons">face</i>
+            <span class="link-text">Wedding</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="makeup.html" class="nav-link">
+            <i class="material-icons">auto_fix_high</i>
+            <span class="link-text">Make Up</span>
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a href="nail.html" class="nav-link">
+            
+            <i class="material-icons">auto_awesome</i>
+        
+            <span class="link-text">Nail Art</span>
+    </a>
+    </li>
+    
+
+
+    </ul>
+</div>
+
+
+</div>
+<div class="container">
+    <div class="row">
+        <form>
+        <div class="col-sm-3">
+            <div class="myEffect">
+                <img src="">
+                <hr>
+            </div>
+                <h3>Bourjois 02</h3>
+                <p class="price">$ 7.99</p>
+                <p>La Laque Nail</p>
+                <button>Add to Cart</button>
+        </div>
+        <div class="col-sm-3">
+            <div class="myEffect">
+                <img src="">
+                <hr>
+            </div>
+                <h3>Flormar 8ml</h3>
+                <p class="price">$ 2.99</p>
+                <p>FC50 Miami Sunset 8ml
+                    Full Color Nail Enamel</p>
+                <button>Add to Cart</button>
+        </div>
+        <div class="col-sm-3">
+            <div class="myEffect">
+                <img src="">
+                <hr>
+            </div>
+                <h3>Flormar Orchid 11ml</h3>
+                <p class="price">$ 2.99</p>
+                <p>GL16 Golden Orchid Glitter Nail Enamel </p>
+                <button>Add to Cart</button>
+        </div>
+        <div class="col-sm-3">
+            <div class="myEffect">
+                <img src="">
+                <hr>
+            </div>
+                <h3>Mee Beautie 10ml</h3>
+                <p class="price">$ 1.99</p>
+                <p>Twinkle Nail Polish</p>
+                <button>Add to Cart</button>
+        </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

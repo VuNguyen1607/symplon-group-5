@@ -1,0 +1,62 @@
+.container {
+   position: absolute;
+   left: 8.9%;
+   top: 22%;
+
+   display: flex;
+}
+
+.row {
+    display: flex;
+    padding: 100px;
+   
+}
+
+.col-sm-3 {
+    position: relative;
+    border-right: 1px solid;
+    
+}
+
+h3{
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+button {
+    margin-left: 30%;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 100%;
+    padding: 10px;
+    left: -30%;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button:hover {
+    background: antiquewhite;
+    
+}
+
+.col-sm-3 img {
+    height: 20vh;
+    background-color: antiquewhite;
+    cursor: pointer;
+    width: 200px;
+    padding-right: 100px;
+
+}
+
+.row > form {
+    display: flex;
+    border: 1px solid gray;
+}
+
+
+
+
+

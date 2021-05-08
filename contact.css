@@ -1,0 +1,63 @@
+.header {
+    position: absolute;
+    background: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190622/ourmid/pngtree-hydra-cosmetic-water-splash-light-blue-background-image_233785.jpg);
+    padding: 30px;
+    
+    top: 28%;
+    height: 60vh;
+    left: 25%;
+    width: 40%;
+    box-shadow: 0px 0px 10px;
+}
+
+.contact {
+    position: absolute;
+    left: 35%;
+    top: 0%;
+    
+}
+
+.cont__form {
+    padding: 20px;
+    margin-top: 5%;
+    color: gray;
+    
+}
+
+.contact h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.cont__form input {
+    width: 45%;
+    outline: none;
+    padding: 8px;
+    display: flex;
+    font-weight: 100;
+    border-radius: 20px;
+    
+}
+
+.cont__mes {
+    outline: none;
+    padding: 20px;
+    display: flex;
+    color: lightslategray;
+    font-weight: 600;
+
+}
+
+.cont__mes input{
+    border: 2px solid lightgreen;
+    width: 100%;
+    outline: none;
+    padding: 20px;
+}
+.send-form {
+    position: absolute;
+    
+    left: 35%;
+    padding: 20px;
+    cursor: pointer;
+}
+

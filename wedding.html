@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="hair.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/jCskKc9.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Original+Surfer&display=swap" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <head>
+    <title>
+         Symplon' Beauty Care Center   
+    </title>
+    
+    <div class="menu__bar">
+        <a href="index.html"><img src="https://i.imgur.com/GcN2ixq.png" alt="logo"/></a>
+        <input value="" id="search" class="fa fa-search" type="search" onChange="openPage()" placeholder="Symplon Search..."/>
+        <script>
+            function openPage(){
+                var x = document.getElementById("search").value;
+
+                if (x = "home", "trang chủ") {
+                    window.open("/index .html");
+                }
+                if (x = "product", "shopping", "shop", "mua", "dịch vụ", "sản phẩm") {
+                    window.open("/cart.html");
+                }
+                if (x = "about us", "About us", "About Us") {
+                    window.open("index.html");
+                }
+            }
+        </script>
+    
+    <ul>
+        
+         <a  href="index.html"><i class="material-icons">home</i><br>Home</a>
+        <a href="cart.html"><i class="material-icons">computer</i>Service/Product</a>
+        <a href="Aboutus.html"><i class="material-icons">people</i><br>About Us</a>
+        <a href="contact.html"><i class="material-icons">phone</i><br>Contact Us</a>
+        <a href="shopping.html"><i class="material-icons">shopping_cart</i><br>Shopping Bag</a>
+        </ul>
+       
+     </div>
+     
+    
+
+    
+</head>
+<body>
+    <div class="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                
+                    <div class="back">
+                    <i class="material-icons">arrow_forward</i>
+                </div>
+                    <span class="link-text">Categories</span>
+                    
+            
+                <hr size="1">
+                
+            </li>
+            <li class="nav-item">
+                <a href="hot.html" class="icon-link">
+                    <div class="icon">
+                    <i class="material-icons">favorite</i>
+                </div>
+                    <span class="link-text">Hot</span>
+                    
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="hair.html" class="nav-link">
+                    <i class="material-icons">content_cut</i>
+                    <span class="link-text">Hair</span>
+                </a>
+            </li>
+        
+        <li class="nav-item">
+            <a href="wedding.html" class="nav-link">
+                <i class="material-icons">face</i>
+                <span class="link-text">Wedding</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="makeup.html" class="nav-link">
+                <i class="material-icons">auto_fix_high</i>
+                <span class="link-text">Make Up</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="nail.html" class="nav-link">
+                
+                <i class="material-icons">auto_awesome</i>
+            
+                <span class="link-text">Nail Art</span>
+        </a>
+        </li>
+        <li class="nav-item">
+            <a href="cms.html" class="nav-link">
+                <i class="material-icons">more</i>
+                <span class="link-text">Comming Soon!</span>
+            </a>
+        </li>
+    
+
+        </ul>
+    </div>
+    
+    
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <form>
+            <div class="col-sm-3">
+                <div class="myEffect">
+                    <img src="https://i.imgur.com/isVzCBU.png">
+                    <hr>
+                </div>
+                    <h3>DKNY Be Delicious</h3>
+                    <p class="price">$ 86.99</p>
+                    <p>Be Delicious EDP 100ml</p>
+                    <button>Add to Cart</button>
+            </div>
+            <div class="col-sm-3">
+                <div class="myEffect">
+                    <img src="https://i.imgur.com/fqDOwwl.png">
+                    <hr>
+                </div>
+                    <h3>DKNY Stories 50ml</h3>
+                    <p class="price">$ 69.53</p>
+                    <p>DKNY Stories EDP Spray</p>
+                    <button>Add to Cart</button>
+            </div>
+            <div class="col-sm-3">
+                <div class="myEffect">
+                    <img src="https://i.imgur.com/VY0DLzE.png">
+                    <hr>
+                </div>
+                    <h3>Calvin Klein Eternity 100ml</h3>
+                    <p class="price">$ 93.57</p>
+                    <p>Eternity Air For Women Eau De Parfum</p>
+                    <button>Add to Cart</button>
+            </div>
+            <div class="col-sm-3">
+                <div class="myEffect">
+                    <img src="https://i.imgur.com/wR7YcoE.png">
+                    <hr>
+                </div>
+                    <h3>Calvin Klein Euphoria EDP 100ml</h3>
+                    <p class="price">$ 102.18</p>
+                    <p>Euphoria Blush Eau de Parfum</p>
+                    <button>Add to Cart</button>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    </body>
+    </html>
