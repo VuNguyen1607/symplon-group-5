@@ -31,7 +31,7 @@ Documentations: https://github.com/VuNguyen1607/-Symplon-_-Group5-/blob/main/Doc
 
 ====================================
 
-Publish website: https://vunguyen1607.github.io/-Symplon-_-Group5-/
+Publish website: https://vunguyen1607.github.io/symplon-group-5/
 
 ====================================
 
